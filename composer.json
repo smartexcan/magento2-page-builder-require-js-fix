@@ -1,0 +1,19 @@
+{
+    "name": "smartex/module-page-builder-require-js-fix",
+    "description": "Fix for requirejs-config in page builder stage render page",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "version": "1.0.0",
+    "require": {
+        "magento/framework": "^103.0.0",
+        "magento/module-require-js": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Smartex\\PageBuilderRequireJsFix\\": ""
+        }
+    }
+}
