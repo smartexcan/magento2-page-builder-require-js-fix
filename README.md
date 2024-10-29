@@ -1,0 +1,1 @@
+# magento2-page-builder-require-js-fix
